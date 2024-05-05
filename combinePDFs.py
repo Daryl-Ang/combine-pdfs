@@ -1,6 +1,7 @@
 import PyPDF2, os
 
-os.chdir('C:/Users/daryl/Documents/Desktop/EE4407/Notes combined for finals/Tutorial 2 problems and solutions') # change directory (\\ or /)
+# insert directory with PDFs here
+os.chdir('') # change single backslashes (\) to (\\) or (/)
 
 # list of all files in cwd
 allFiles = os.listdir() # cwd. include path if needed
